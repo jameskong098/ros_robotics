@@ -1,0 +1,5 @@
+<launch>
+    <!--<node name="scan_values_handler" pkg="kong_pa3" type="scan_values_handler.py" output="log"/>-->
+    <node name="driver" pkg="kong_pa3" type="driver.py" output="screen"/>
+    <node name="pid" pkg="kong_pa3" type="pid.py" output="screen"/>
+</launch>
