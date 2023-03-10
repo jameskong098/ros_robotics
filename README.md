@@ -19,6 +19,3 @@ Mapping: Implement a robot behavior that maps an unknown environment using senso
 Path Planning: Implement a robot behavior that plans a path through a map to reach a specified goal.
 Behavior Planning: Implement a robot behavior that plans a sequence of actions to achieve a desired goal, given a high-level task specification.
 Each assignment will include a detailed description of the behavior to be implemented, as well as the specific requirements for the code implementation. I am encouraged to work collaboratively and use the resources available to me, including the ROS documentation and forums.
-
-# **License**
-This repository is licensed under the MIT license. See the LICENSE file for details.
