@@ -1,0 +1,9 @@
+<launch>
+
+  <node pkg="fiducial" type="fiducial.py" name="listener" output="screen"/>
+
+  roslaunch aruco_detect aruco_detect.launch
+  
+
+</launch>
+
