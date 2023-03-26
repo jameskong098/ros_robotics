@@ -1,7 +1,0 @@
-<launch>
-  <node pkg="fiducial" type="fiducial.py" name="listener" output="screen"/>
-
-  <include file="$(find aruco_detect)/launch/aruco_detect.launch"/>
-  
-  <node pkg="tf" type="static_transform_publisher" name="static_transform_publisher" args="0.1 0 0 0 0 0 base_link raspicam 100"/>
-</launch>
